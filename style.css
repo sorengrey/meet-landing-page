@@ -10,31 +10,87 @@ body {
 
 header {
     margin-top: 2em;
+    display: inline-flex;
+    padding-bottom: 2em;
 }
 
 /* experience more together */
 h4 {
     font-weight: 900;
+    color: #FFFFFF;
+}
+
+/* group chat for everyone */
+#groupchat {
+    margin-top: 2em;
+}
+
+/* built for modern use */
+#built {
+    color: #4D96A9;
+    text-transform: uppercase;
+}
+
+p {
+   color: #87879D;
+   padding: 1em;
+   font-weight: 500;
 }
 
 /* the buttons */
-.download {
+button {
+    color: #FFFFFF;
+    border: none;
+    border-radius: 1.9em;
+    font-weight: 500;
+    padding: 1em;
     font-size: 16px;
+    margin-bottom: .7em;
+}
+
+#twobuttons {
+    width: 45%;
+    align-items: center;
+    margin: auto;
+}
+
+.download {
     line-height: 26px;
+    background-color: #4D96A9;
+}
+.download:hover {
+    background-color: #71C0D4;
 }
 
 #whatisit {
-    font-size: 16px;
     line-height: 26px;
+    background-color: #855FB1;
+}
+#whatisit:hover {
+    background-color: #D9B8FF;
 }
 
+
+/* footer */
 footer {
-    background-image: linear-gradient(#4D96A9, #4D96A9),url('./assets/mobile/image-footer.jpg');
+    background-image: linear-gradient(rgb(77, 150, 154, 0.8), rgb(77, 150, 154, 0.8)),url('./assets/mobile/image-footer.jpg');
     background-repeat: no-repeat;
     width: 100%;
     display: flex;
     flex-direction: column;
     object-fit: cover;
+    align-items: center;
 }
 
+footer p {
+    color: #FAFAFA;
+}
+
+#footerbutton {
+   background-color:  #855FB1;
+   width: 50%;
+}
+#footerbutton:hover {
+    background-color: #D9B8FF;
+}
 
