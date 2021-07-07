@@ -9,20 +9,11 @@ body {
 }
 
 header {
-    margin-top: 1em;
-    font-weight: 900;
-    text-shadow: 1px 1px #979797;
+    margin-top: 2em;
 }
 
 /* experience more together */
 h4 {
-    font-weight: 900;
-}
-
-/* group chat for everyone */
-#groupchat {
-    font-size: 40px;
-    line-height: 44px;
     font-weight: 900;
 }
 
