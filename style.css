@@ -48,6 +48,7 @@ button {
     margin-bottom: .7em;
 }
 
+/* download and what is it buttons before section one */
 #twobuttons {
     width: 45%;
     align-items: center;
@@ -71,10 +72,26 @@ button {
 }
 
 
+/* the circled numbers */
+.circle {
+    border: 1px solid lightgrey;
+    color: grey;
+    font-weight: bold;
+    border-radius: 50%;
+    background: rgb(235, 235, 235);
+    height: 56px;
+    width: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
 /* footer */
 footer {
     background-image: linear-gradient(rgb(77, 150, 154, 0.8), rgb(77, 150, 154, 0.8)),url('./assets/mobile/image-footer.jpg');
     background-repeat: no-repeat;
+    background-position: center;
     width: 100%;
     display: flex;
     flex-direction: column;
