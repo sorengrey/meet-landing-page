@@ -36,7 +36,7 @@ h4 {
     font-size: 32px;
     color: #FFFFFF;
     line-height: 36px;
-    padding-top: 2em;
+    padding-top: 1.6em;
 }
 
 /* 'group chat for everyone' */
@@ -143,7 +143,7 @@ button {
 
 /* footer */
 footer {
-    background-image: linear-gradient(rgb(77, 150, 154, 0.8), rgb(77, 150, 154, 0.8)),url('./assets/mobile/image-footer.jpg');
+    background-image: linear-gradient(rgb(77, 150, 154, 0.85), rgb(77, 150, 154, 0.85)),url('./assets/mobile/image-footer.jpg');
     background-repeat: no-repeat;
     background-position: center top;
     width: 100%;
