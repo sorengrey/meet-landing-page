@@ -9,9 +9,25 @@ body {
 }
 
 header {
-    margin-top: 2em;
+    margin-top: 2.5em;
     display: inline-flex;
     padding-bottom: 2em;
+}
+
+p {
+    color: #87879D;
+    padding: 1em;
+    font-weight: 500;
+    line-height: 26px;
+ }
+
+
+/* smarter meetings all in one place */
+h3 {
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 36px;
+    padding: .3em;
 }
 
 /* experience more together */
@@ -29,12 +45,11 @@ h4 {
 #built {
     color: #4D96A9;
     text-transform: uppercase;
-}
-
-p {
-   color: #87879D;
-   padding: 1em;
-   font-weight: 500;
+    padding: 2em 0 0 1em;
+    font-weight: 900;
+    line-height: 26px;
+    font-size: 16px;
+    letter-spacing: 4px;
 }
 
 
@@ -88,7 +103,7 @@ button {
     font-size: 16px;
     font-weight: bold;
     border-radius: 50%;
-    background: rgb(235, 235, 235);
+    /* background: rgb(235, 235, 235); */
     height: 56px;
     width: 56px;
     display: flex;
