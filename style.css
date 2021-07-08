@@ -9,7 +9,7 @@ body {
 }
 
 header {
-    margin-top: 2.5em;
+    margin-top: 2.8em;
     display: inline-flex;
     padding-bottom: 2em;
 }
@@ -22,34 +22,42 @@ p {
  }
 
 
-/* smarter meetings all in one place */
+/* 'smarter meetings all in one place' */
 h3 {
     font-size: 36px;
     font-weight: 900;
     line-height: 36px;
-    padding: .3em;
+    padding: .1em .65em .3em .65em;
 }
 
-/* experience more together */
+/* 'experience more together' */
 h4 {
     font-weight: 900;
+    font-size: 32px;
     color: #FFFFFF;
+    line-height: 36px;
 }
 
-/* group chat for everyone */
+/* 'group chat for everyone' */
 #groupchat {
-    margin-top: 2em;
+    margin-top: 2.2em;
 }
 
-/* built for modern use */
+/* 'built for modern use' */
 #built {
     color: #4D96A9;
     text-transform: uppercase;
-    padding: 2em 0 0 1em;
+    padding: 2em 0 0 .5em;
     font-weight: 900;
     line-height: 26px;
     font-size: 16px;
     letter-spacing: 4px;
+    margin-top: 1em;
+}
+
+/* paragraph beginning with 'send messages' */
+#sendmessages {
+ padding: 0 1.673em 0 1.673em;
 }
 
 
@@ -58,10 +66,12 @@ button {
     color: #FFFFFF;
     border: none;
     border-radius: 1.9em;
-    font-weight: 500;
-    padding: 1em;
+    font-weight: 900;
+    padding: 1.2em ;
     font-size: 16px;
+    font-style: normal;
     margin-bottom: .7em;
+    line-height: 26px;
 }
 
 /* 'download' and 'what is it' buttons before section one */
@@ -71,6 +81,7 @@ button {
     margin: auto;
 }
 
+/* both 'download' buttons */
 .download {
     line-height: 26px;
     background-color: #4D96A9;
@@ -79,9 +90,11 @@ button {
     background-color: #71C0D4;
 }
 
+/* 'what is it?' button */
 #whatisit {
     line-height: 26px;
     background-color: #855FB1;
+    margin-bottom: 4em;
 }
 #whatisit:hover {
     background-color: #D9B8FF;
@@ -100,10 +113,10 @@ button {
 .circle {
     border: 1px solid lightgrey;
     color: #87879D;
+    background-color: #FFFFFF;
     font-size: 16px;
     font-weight: bold;
     border-radius: 50%;
-    /* background: rgb(235, 235, 235); */
     height: 56px;
     width: 56px;
     display: flex;
@@ -112,9 +125,19 @@ button {
     margin: auto;
 }
 
+/* the circled '1' */
+#one {
+    margin-bottom: 5em;
+}
+
+/* the circled '2' and its line */
+#two {
+    margin-bottom: -2em;
+    position: relative;
+}
 
 /* footer */
-footer {
+.footer {
     background-image: linear-gradient(rgb(77, 150, 154, 0.8), rgb(77, 150, 154, 0.8)),url('./assets/mobile/image-footer.jpg');
     background-repeat: no-repeat;
     background-position: center;
@@ -125,7 +148,7 @@ footer {
     align-items: center;
 }
 
-footer p {
+.footer p {
     color: #FAFAFA;
 }
 
