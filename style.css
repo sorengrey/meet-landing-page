@@ -67,7 +67,10 @@ button {
     border: none;
     border-radius: 1.9em;
     font-weight: 900;
-    padding: 1.2em ;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
     font-size: 16px;
     font-style: normal;
     margin-bottom: .7em;
@@ -76,7 +79,7 @@ button {
 
 /* 'download' and 'what is it' buttons before section one */
 #twobuttons {
-    width: 45%;
+    width: 60%;
     align-items: center;
     margin: auto;
 }
@@ -137,7 +140,7 @@ button {
 }
 
 /* footer */
-.footer {
+footer {
     background-image: linear-gradient(rgb(77, 150, 154, 0.8), rgb(77, 150, 154, 0.8)),url('./assets/mobile/image-footer.jpg');
     background-repeat: no-repeat;
     background-position: center;
@@ -148,15 +151,24 @@ button {
     align-items: center;
 }
 
-.footer p {
+footer p {
     color: #FAFAFA;
 }
 
 #footerbutton {
    background-color:  #855FB1;
-   width: 50%;
+   width: 55%;
 }
 #footerbutton:hover {
     background-color: #D9B8FF;
 }
 
+.version1 {
+    display: inline-block;
+    color: #8FE3F9;
+}
+
+.version2 {
+    display: inline-block;
+    color: #D9B8FF;
+}
