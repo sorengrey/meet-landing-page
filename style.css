@@ -8,10 +8,33 @@ body {
     text-align: center;
 }
 
-header {
+/* meet logo */
+#meet-logo {
     margin-top: 2.8em;
     display: inline-flex;
     padding-bottom: 2em;
+}
+
+/* hero image on mobile */
+#mobile-hero {
+    margin-top: 2.8em;
+    display: inline-flex;
+    padding-bottom: 2em;
+}
+
+/* hero image on tablet */
+#tablet-hero {
+    display: none;
+}
+
+/* left hero image on desktop */
+#desktop-left {
+    display: none;
+}
+
+/* right hero image on desktop */
+#desktop-right {
+    display: none;
 }
 
 p {
@@ -22,7 +45,7 @@ p {
  }
 
 
-/* 'smarter meetings all in one place' */
+/* 'smarter meetings, all in one place' */
 h3 {
     font-size: 36px;
     font-weight: 900;
@@ -104,6 +127,19 @@ button {
     background-color: #D9B8FF;
 }
 
+/* version number for first 'download' button */
+.version1 {
+    display: inline-block;
+    color: #8FE3F9;
+}
+
+/* version number for the second 'download' button */
+.version2 {
+    display: inline-block;
+    color: #D9B8FF;
+}
+
+
 
 /* the lines above the circled numbers */
 .line {
@@ -170,12 +206,63 @@ footer {
     background-color: #D9B8FF;
 }
 
-.version1 {
-    display: inline-block;
-    color: #8FE3F9;
+
+/* Tablet View */
+@media only screen
+and (min-width:481px)
+and (max-width: 768px){
+    #mobile-hero {
+        display: none;
+    }
+    #tablet-hero {
+        display: block;
+        width: 100%;
+        overflow: hidden;
+    }
+    #desktop-left {
+        display: none;
+    }
+    #desktop-right {
+        display: none;
+    }
+    #meet-makes {
+        margin: auto;
+        width: 73%;
+    }
+    #whatisit {
+        margin-left: 1em;
+    }
+    #twobuttons {
+        margin-top: 1em;
+        width: 90%;
+    }
+    #fourimgs {
+        display: none;
+    }
+    .line {
+        text-align: center;
+        margin-left: 240px;
+    }
 }
 
-.version2 {
-    display: inline-block;
-    color: #D9B8FF;
+
+/* Desktop View */
+@media only screen
+and (min-width:769px)
+and (max-width: 1440px){
+    #mobile-hero {
+        display: none;
+    }
+    #tablet-hero {
+        display: none;
+    }
+    #desktop-left {
+        display: inline-flex;
+    }
+    #desktop-right {
+        display: inline-flex;
+    }
+    #fourimgs {
+        display: none;
+    }
 }
