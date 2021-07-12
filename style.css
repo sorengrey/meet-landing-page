@@ -20,6 +20,7 @@ body {
     margin-top: 2.8em;
     display: inline-flex;
     padding-bottom: 2em;
+    overflow: hidden;
 }
 
 /* hero image on tablet */
@@ -158,8 +159,10 @@ button {
 .line {
     border-left: 1px solid #87879D;
     height: 84px;
-    margin-left: 186px;
+    /* margin-left: 186px; */
     opacity: 25%;
+    width: 1px;
+    margin: auto;
 }
 
 /* the circled numbers */
@@ -232,9 +235,9 @@ and (max-width: 768px){
     }
     #tablet-hero {
         display: block;
-        width: 109%;
+        /* width: 109%; */
         overflow: hidden;
-        transform: translateX(-5%);
+        /* transform: translateX(-5%); */
     }
     #desktop-left {
         display: none;
@@ -247,6 +250,10 @@ and (max-width: 768px){
     }
     #meet-makes {
        text-align: center;
+       width: 457px;
+       margin: auto;
+       font-size: 18px;
+       line-height: 26px;
     }
     #whatisit {
         margin-left: 1em;
@@ -266,7 +273,8 @@ and (max-width: 768px){
         display: inline-flex;
     }
     footer {
-        background-image: url('./assets/tablet/image-footer.jpg');
+        background-image: linear-gradient(rgb(77, 150, 154, 0.89), rgb(77, 150, 154, 0.89)),url('./assets/tablet/image-footer.jpg');
+        background-size: cover;
     }
 }
 
@@ -274,6 +282,7 @@ and (max-width: 768px){
 /* Desktop View */
 @media only screen
 and (min-width:769px)
+and (max-width: 1440px)
 {
     #meet-logo {
         width: 100px;
