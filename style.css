@@ -67,9 +67,14 @@ h4 {
     padding-top: 1.6em;
 }
 
-/* 'group chat for everyone' */
-#groupchat {
+/* 'group chat for everyone' image */
+#groupchat-img {
     margin-top: 2.2em;
+}
+
+/* 'group chat for everyone' text */
+h5 {
+    display: none;
 }
 
 /* 'built for modern use' */
@@ -295,11 +300,30 @@ and (min-width:769px)
         width: 255px;
         height: 242px;
     }
-    #groupchat {
+    #groupchat-img {
+        display: none;
+    }
+    /* 'smarter meetings, all in one place' */
+    h3 {
+        font-size: 40px;
+        line-height: 44px;
+        width: 445px;
+        margin: auto;
+        padding-top: .5em;
+    }
+    /* 'group chat for everyone' text */
+    h5 {
+        display: inline-flex;
+        font-size: 64px;
+        line-height: 64px;
+        text-align: center;
+        width: 445px;
+        font-weight: 900;
         margin: 0;
     }
     #meet-makes {
         width: 50%;
+        margin: auto;
     }
     .line {
         text-align: center;
@@ -308,6 +332,6 @@ and (min-width:769px)
         display: none;
     }
     footer {
-        background-image: url('./assets/desktop/image-footer.jpg');
+        background-image: linear-gradient(rgb(77, 150, 154, 0.85), rgb(77, 150, 154, 0.85)), url('./assets/desktop/image-footer.jpg');
     }
 }
