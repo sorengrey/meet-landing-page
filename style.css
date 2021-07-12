@@ -159,7 +159,6 @@ button {
 .line {
     border-left: 1px solid #87879D;
     height: 84px;
-    /* margin-left: 186px; */
     opacity: 25%;
     width: 1px;
     margin: auto;
@@ -195,13 +194,13 @@ button {
 
 /* footer */
 footer {
-    background-image: linear-gradient(rgb(77, 150, 154, 0.85), rgb(77, 150, 154, 0.85)),url('./assets/mobile/image-footer.jpg');
+    background-image: linear-gradient(rgb(77, 150, 169, 0.85), rgb(77, 150, 169, 0.85)),url('./assets/mobile/image-footer.jpg');
     background-repeat: no-repeat;
     background-position: center top;
     width: 100%;
     display: flex;
     flex-direction: column;
-    object-fit: cover;
+    background-size: cover;
     align-items: center;
 }
 
@@ -264,7 +263,6 @@ and (max-width: 768px){
     }
     .line {
         text-align: center;
-        margin-left: 240px;
     }
     #four-imgs {
         display: none;
@@ -273,7 +271,7 @@ and (max-width: 768px){
         display: inline-flex;
     }
     footer {
-        background-image: linear-gradient(rgb(77, 150, 154, 0.89), rgb(77, 150, 154, 0.89)),url('./assets/tablet/image-footer.jpg');
+        background-image: linear-gradient(rgb(77, 150, 169, 0.89), rgb(77, 150, 169, 0.89)),url('./assets/tablet/image-footer.jpg');
         background-size: cover;
     }
     h4 {
@@ -370,7 +368,7 @@ and (min-width:769px)
         margin: auto;
     }
     footer {
-        background-image: linear-gradient(rgb(77, 150, 154, 0.89), rgb(77, 150, 154, 0.89)), url('./assets/desktop/image-footer.jpg');
+        background-image: linear-gradient(rgb(77, 150, 169, 0.89), rgb(77, 150, 169, 0.89)), url('./assets/desktop/image-footer.jpg');
         flex-direction: row;
         height: 308px;
         background-size: cover;
@@ -381,6 +379,7 @@ and (min-width:769px)
         text-align: left;
         width: 350px;
         font-size: 18px;
+        margin-left: 1em;
     }
     #footerbutton {
         width: 193px;
