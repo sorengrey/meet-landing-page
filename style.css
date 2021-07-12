@@ -234,10 +234,10 @@ and (max-width: 768px){
         display: none;
     }
     #tablet-hero {
-        display: block;
+        display: inline-flex;
         /* width: 109%; */
         overflow: hidden;
-        /* transform: translateX(-5%); */
+        transform: translateX(-5%);
     }
     #desktop-left {
         display: none;
@@ -276,13 +276,25 @@ and (max-width: 768px){
         background-image: linear-gradient(rgb(77, 150, 154, 0.89), rgb(77, 150, 154, 0.89)),url('./assets/tablet/image-footer.jpg');
         background-size: cover;
     }
+    h4 {
+        width: 457px;
+        font-size: 40px;
+        line-height: 44px;
+    }
+    #stay {
+        font-size: 18px;
+        line-height: 26px;
+        width: 573px;
+    }
+    #footerbutton {
+        width: 193px;
+    }
 }
 
 
 /* Desktop View */
 @media only screen
 and (min-width:769px)
-and (max-width: 1440px)
 {
     #meet-logo {
         width: 100px;
@@ -361,14 +373,24 @@ and (max-width: 1440px)
         background-image: linear-gradient(rgb(77, 150, 154, 0.89), rgb(77, 150, 154, 0.89)), url('./assets/desktop/image-footer.jpg');
         flex-direction: row;
         height: 308px;
+        background-size: cover;
+        width: 100%;
+        justify-content: center;
     }
     #stay {
         text-align: left;
-        width: 30%;
+        width: 350px;
         font-size: 18px;
     }
     #footerbutton {
         width: 193px;
+        margin-left: 1em;
+    }
+    #footerbutton:hover {
+        background-color: #B18BDD;
+    }
+    .version2:hover {
+        color: #D9B8FF;
     }
     h4 {
         padding-top: 0;
