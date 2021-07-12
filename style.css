@@ -10,7 +10,7 @@ body {
 
 /* meet logo */
 #meet-logo {
-    margin-top: 2.8em;
+    margin-top: 2.5em;
     display: inline-flex;
     padding-bottom: 2em;
 }
@@ -34,6 +34,11 @@ body {
 
 /* right hero image on desktop */
 #desktop-right {
+    display: none;
+}
+
+/* the four images on desktop */
+#desktop-four {
     display: none;
 }
 
@@ -139,7 +144,10 @@ button {
     color: #D9B8FF;
 }
 
-
+/* row of four images */
+    #four-row {
+        display: none;
+    }
 
 /* the lines above the circled numbers */
 .line {
@@ -211,13 +219,17 @@ footer {
 @media only screen
 and (min-width:481px)
 and (max-width: 768px){
+    #meet-logo {
+        width: 100px;
+    }
     #mobile-hero {
         display: none;
     }
     #tablet-hero {
         display: block;
-        width: 100%;
+        width: 109%;
         overflow: hidden;
+        transform: translateX(-5%);
     }
     #desktop-left {
         display: none;
@@ -225,9 +237,11 @@ and (max-width: 768px){
     #desktop-right {
         display: none;
     }
+    #desktop-four {
+        display: none;
+    }
     #meet-makes {
-        margin: auto;
-        width: 73%;
+       text-align: center;
     }
     #whatisit {
         margin-left: 1em;
@@ -236,12 +250,18 @@ and (max-width: 768px){
         margin-top: 1em;
         width: 90%;
     }
-    #fourimgs {
-        display: none;
-    }
     .line {
         text-align: center;
         margin-left: 240px;
+    }
+    #four-imgs {
+        display: none;
+    }
+    #four-row {
+        display: inline-flex;
+    }
+    footer {
+        background-image: url('./assets/tablet/image-footer.jpg');
     }
 }
 
@@ -249,7 +269,10 @@ and (max-width: 768px){
 /* Desktop View */
 @media only screen
 and (min-width:769px)
-and (max-width: 1440px){
+{
+    #meet-logo {
+        width: 100px;
+    }
     #mobile-hero {
         display: none;
     }
@@ -258,11 +281,33 @@ and (max-width: 1440px){
     }
     #desktop-left {
         display: inline-flex;
+        float: left;
     }
     #desktop-right {
         display: inline-flex;
+        float: right;
     }
-    #fourimgs {
+    #desktop-four {
+        display: block;
+    }
+    #desktop-four img {
+        border-radius: 5px;
+        width: 255px;
+        height: 242px;
+    }
+    #groupchat {
+        margin: 0;
+    }
+    #meet-makes {
+        width: 50%;
+    }
+    .line {
+        text-align: center;
+    }
+    #four-imgs {
         display: none;
+    }
+    footer {
+        background-image: url('./assets/desktop/image-footer.jpg');
     }
 }
