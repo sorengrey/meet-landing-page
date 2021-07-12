@@ -236,7 +236,7 @@ and (max-width: 768px){
         display: inline-flex;
         /* width: 109%; */
         overflow: hidden;
-        transform: translateX(-5%);
+        /* transform: translateX(-5%); */
     }
     #desktop-left {
         display: none;
@@ -247,6 +247,9 @@ and (max-width: 768px){
     #desktop-four {
         display: none;
     }
+    #groupchat-img {
+        display: none;
+    }    
     #meet-makes {
        text-align: center;
        width: 457px;
@@ -270,14 +273,39 @@ and (max-width: 768px){
     #four-row {
         display: inline-flex;
     }
+    #sendmessages {
+        width: 573px;
+        font-size: 16px;
+        line-height: 26px;
+        margin: auto;
+        padding-top: 1em;
+    }
     footer {
         background-image: linear-gradient(rgb(77, 150, 169, 0.89), rgb(77, 150, 169, 0.89)),url('./assets/tablet/image-footer.jpg');
         background-size: cover;
+    }
+    h3 {
+        padding-top: .5em;
+        width: 445px;
+        margin: auto;
+        font-size: 40px;
+        line-height: 44px;
+        font-weight: 900;
     }
     h4 {
         width: 457px;
         font-size: 40px;
         line-height: 44px;
+    }
+    h5 {
+        display: inline-flex;
+        font-size: 48px;
+        line-height: 48px;
+        width: 339px;
+        height: 96px;
+        margin: 0;
+        padding-top: 1em;
+        padding-bottom: .5em;
     }
     #stay {
         font-size: 18px;
