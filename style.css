@@ -277,6 +277,7 @@ and (min-width:769px)
 {
     #meet-logo {
         width: 100px;
+        padding-top: 1em;
     }
     #mobile-hero {
         display: none;
@@ -296,9 +297,10 @@ and (min-width:769px)
         display: block;
     }
     #desktop-four img {
-        border-radius: 5px;
+        border-radius: 1em;
         width: 255px;
         height: 242px;
+        padding: .5em;
     }
     #groupchat-img {
         display: none;
@@ -310,6 +312,7 @@ and (min-width:769px)
         width: 445px;
         margin: auto;
         padding-top: .5em;
+        padding-bottom: .75em;
     }
     /* 'group chat for everyone' text */
     h5 {
@@ -322,16 +325,48 @@ and (min-width:769px)
         margin: 0;
     }
     #meet-makes {
-        width: 50%;
+        width: 35%;
         margin: auto;
+        padding-bottom: 1em;
+    }
+    #twobuttons {
+        margin-top: 1em;
+    }
+    button {
+        font-weight: normal;
     }
     .line {
         text-align: center;
     }
+    #one {
+        margin-bottom: 3em;
+    }
     #four-imgs {
         display: none;
     }
+    #sendmessages {
+        width: 32%;
+        margin: auto;
+    }
     footer {
-        background-image: linear-gradient(rgb(77, 150, 154, 0.85), rgb(77, 150, 154, 0.85)), url('./assets/desktop/image-footer.jpg');
+        background-image: linear-gradient(rgb(77, 150, 154, 0.89), rgb(77, 150, 154, 0.89)), url('./assets/desktop/image-footer.jpg');
+        flex-direction: row;
+        height: 308px;
+    }
+    #stay {
+        text-align: left;
+        width: 30%;
+        font-size: 18px;
+    }
+    #footerbutton {
+        width: 193px;
+    }
+    h4 {
+        padding-top: 0;
+        font-size: 40px;
+        text-align: left;
+        padding-left: 2em;
+        line-height: 44px;
+        width: 350px;
     }
 }
