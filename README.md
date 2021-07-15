@@ -59,3 +59,4 @@ While this project is mostly done, I do want to work on the hero images. I was u
 
 - Website - [Heather Smith](https://sorengrey.github.io/current-portfolio/)
 - Frontend Mentor - [@sorengrey](https://www.frontendmentor.io/profile/sorengrey)
+- LinkedIn - [Heather Smith](https://www.linkedin.com/in/heathersmith17/)
